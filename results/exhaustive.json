@@ -1,0 +1,326 @@
+[
+  {
+    "p": 0.01,
+    "decoder": "sum-product, postprocess=\"osd\"",
+    "p_unmatched": 0.005317580008441313,
+    "p_logical": 0.000838273854491094,
+    "p_fail": 0.006155853862932407,
+    "failing_weight1": 0,
+    "failing_weight2": 66
+  },
+  {
+    "p": 0.01,
+    "decoder": "sum-product, postprocess=\"hard\"",
+    "p_unmatched": 0.0037303548037952803,
+    "p_logical": 0.0008808056936980917,
+    "p_fail": 0.004611160497493372,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.625, fixed iterations",
+    "p_unmatched": 0.004480039303180815,
+    "p_logical": 0.000858654548358739,
+    "p_fail": 0.005338693851539555,
+    "failing_weight1": 0,
+    "failing_weight2": 57
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.625, stop at first match",
+    "p_unmatched": 0.002249744639331119,
+    "p_logical": 0.0016193020155829663,
+    "p_fail": 0.003869046654914085,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.75, fixed iterations",
+    "p_unmatched": 0.0037303548037952803,
+    "p_logical": 0.0008808056936980917,
+    "p_fail": 0.004611160497493372,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.75, stop at first match",
+    "p_unmatched": 0.002249744639331119,
+    "p_logical": 0.0016193020155829663,
+    "p_fail": 0.003869046654914085,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.9, fixed iterations",
+    "p_unmatched": 0.0037303548037952803,
+    "p_logical": 0.0008808056936980917,
+    "p_fail": 0.004611160497493372,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.9, stop at first match",
+    "p_unmatched": 0.002249744639331119,
+    "p_logical": 0.0016193020155829663,
+    "p_fail": 0.003869046654914085,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=1.0, fixed iterations",
+    "p_unmatched": 0.0037303548037952803,
+    "p_logical": 0.0008808056936980917,
+    "p_fail": 0.004611160497493372,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=1.0, stop at first match",
+    "p_unmatched": 0.002249744639331119,
+    "p_logical": 0.0016193020155829663,
+    "p_fail": 0.003869046654914085,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.75 + OSD-0 (ldpc)",
+    "p_unmatched": 0.0,
+    "p_logical": 0.00238646959624661,
+    "p_fail": 0.00238646959624661,
+    "failing_weight1": 0,
+    "failing_weight2": 25
+  },
+  {
+    "p": 0.01,
+    "decoder": "sum-product + OSD-0 (ldpc)",
+    "p_unmatched": 0.0,
+    "p_logical": 0.002378395207361721,
+    "p_fail": 0.002378395207361721,
+    "failing_weight1": 0,
+    "failing_weight2": 25
+  },
+  {
+    "p": 0.05,
+    "decoder": "sum-product, postprocess=\"osd\"",
+    "p_unmatched": 0.10078999570624997,
+    "p_logical": 0.015793058589999995,
+    "p_fail": 0.11658305429624996,
+    "failing_weight1": 0,
+    "failing_weight2": 66
+  },
+  {
+    "p": 0.05,
+    "decoder": "sum-product, postprocess=\"hard\"",
+    "p_unmatched": 0.07051495703437498,
+    "p_logical": 0.019669597773359367,
+    "p_fail": 0.09018455480773435,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=0.625, fixed iterations",
+    "p_unmatched": 0.08498497940937497,
+    "p_logical": 0.01766644690398437,
+    "p_fail": 0.10265142631335934,
+    "failing_weight1": 0,
+    "failing_weight2": 57
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=0.625, stop at first match",
+    "p_unmatched": 0.04338731420937499,
+    "p_logical": 0.033083782937265604,
+    "p_fail": 0.07647109714664059,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=0.75, fixed iterations",
+    "p_unmatched": 0.07051495703437498,
+    "p_logical": 0.019669597773359367,
+    "p_fail": 0.09018455480773435,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=0.75, stop at first match",
+    "p_unmatched": 0.04338731420937499,
+    "p_logical": 0.033083782937265604,
+    "p_fail": 0.07647109714664059,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=0.9, fixed iterations",
+    "p_unmatched": 0.07051495703437498,
+    "p_logical": 0.019669597773359367,
+    "p_fail": 0.09018455480773435,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=0.9, stop at first match",
+    "p_unmatched": 0.04338731420937499,
+    "p_logical": 0.033083782937265604,
+    "p_fail": 0.07647109714664059,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=1.0, fixed iterations",
+    "p_unmatched": 0.07051495703437498,
+    "p_logical": 0.019669597773359367,
+    "p_fail": 0.09018455480773435,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=1.0, stop at first match",
+    "p_unmatched": 0.04338731420937499,
+    "p_logical": 0.033083782937265604,
+    "p_fail": 0.07647109714664059,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.05,
+    "decoder": "min-sum a=0.75 + OSD-0 (ldpc)",
+    "p_unmatched": 0.0,
+    "p_logical": 0.04911981405124999,
+    "p_fail": 0.04911981405124999,
+    "failing_weight1": 0,
+    "failing_weight2": 25
+  },
+  {
+    "p": 0.05,
+    "decoder": "sum-product + OSD-0 (ldpc)",
+    "p_unmatched": 0.0,
+    "p_logical": 0.04847625330687499,
+    "p_fail": 0.04847625330687499,
+    "failing_weight1": 0,
+    "failing_weight2": 25
+  },
+  {
+    "p": 0.1,
+    "decoder": "sum-product, postprocess=\"osd\"",
+    "p_unmatched": 0.2864007712000001,
+    "p_logical": 0.04450918752000002,
+    "p_fail": 0.33090995872000006,
+    "failing_weight1": 0,
+    "failing_weight2": 66
+  },
+  {
+    "p": 0.1,
+    "decoder": "sum-product, postprocess=\"hard\"",
+    "p_unmatched": 0.19913404320000008,
+    "p_logical": 0.06532182064000003,
+    "p_fail": 0.26445586384000014,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=0.625, fixed iterations",
+    "p_unmatched": 0.2411941392000001,
+    "p_logical": 0.054690369760000024,
+    "p_fail": 0.2958845089600001,
+    "failing_weight1": 0,
+    "failing_weight2": 57
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=0.625, stop at first match",
+    "p_unmatched": 0.12549299040000006,
+    "p_logical": 0.10144727632000006,
+    "p_fail": 0.2269402667200001,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=0.75, fixed iterations",
+    "p_unmatched": 0.19913404320000008,
+    "p_logical": 0.06532182064000003,
+    "p_fail": 0.26445586384000014,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=0.75, stop at first match",
+    "p_unmatched": 0.12549299040000006,
+    "p_logical": 0.10144727632000006,
+    "p_fail": 0.2269402667200001,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=0.9, fixed iterations",
+    "p_unmatched": 0.19913404320000008,
+    "p_logical": 0.06532182064000003,
+    "p_fail": 0.26445586384000014,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=0.9, stop at first match",
+    "p_unmatched": 0.12549299040000006,
+    "p_logical": 0.10144727632000006,
+    "p_fail": 0.2269402667200001,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=1.0, fixed iterations",
+    "p_unmatched": 0.19913404320000008,
+    "p_logical": 0.06532182064000003,
+    "p_fail": 0.26445586384000014,
+    "failing_weight1": 0,
+    "failing_weight2": 49
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=1.0, stop at first match",
+    "p_unmatched": 0.12549299040000006,
+    "p_logical": 0.10144727632000006,
+    "p_fail": 0.2269402667200001,
+    "failing_weight1": 0,
+    "failing_weight2": 41
+  },
+  {
+    "p": 0.1,
+    "decoder": "min-sum a=0.75 + OSD-0 (ldpc)",
+    "p_unmatched": 0.0,
+    "p_logical": 0.15177880576000005,
+    "p_fail": 0.15177880576000005,
+    "failing_weight1": 0,
+    "failing_weight2": 25
+  },
+  {
+    "p": 0.1,
+    "decoder": "sum-product + OSD-0 (ldpc)",
+    "p_unmatched": 0.0,
+    "p_logical": 0.14896165888000007,
+    "p_fail": 0.14896165888000007,
+    "failing_weight1": 0,
+    "failing_weight2": 25
+  }
+]

@@ -1,0 +1,414 @@
+[
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.625",
+    "shots": 100000,
+    "unmatched": 160,
+    "logical": 35,
+    "failures": 195,
+    "fail_rate": 0.00195,
+    "fail_rate_95": [
+      0.0016950369360173813,
+      0.0022432277716056106
+    ],
+    "mean_iters_converged": 1.0579627403846155,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.75",
+    "shots": 100000,
+    "unmatched": 129,
+    "logical": 59,
+    "failures": 188,
+    "fail_rate": 0.00188,
+    "fail_rate_95": [
+      0.0016299702546544433,
+      0.0021682998310019463
+    ],
+    "mean_iters_converged": 1.0669163220554516,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.9",
+    "shots": 100000,
+    "unmatched": 110,
+    "logical": 61,
+    "failures": 171,
+    "fail_rate": 0.00171,
+    "fail_rate_95": [
+      0.001472348060109111,
+      0.0019859350864855287
+    ],
+    "mean_iters_converged": 1.0868555410952048,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=1.0",
+    "shots": 100000,
+    "unmatched": 444,
+    "logical": 54,
+    "failures": 498,
+    "fail_rate": 0.00498,
+    "fail_rate_95": [
+      0.0045623086852091335,
+      0.005435723230396797
+    ],
+    "mean_iters_converged": 1.1727369520671782,
+    "unmatched_with_zero_posterior": 349
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.9, prior jittered",
+    "shots": 100000,
+    "unmatched": 63,
+    "logical": 83,
+    "failures": 146,
+    "fail_rate": 0.00146,
+    "fail_rate_95": [
+      0.0012417273183788265,
+      0.0017165750354779475
+    ],
+    "mean_iters_converged": 1.1040355423917068,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=1.0, prior jittered",
+    "shots": 100000,
+    "unmatched": 61,
+    "logical": 82,
+    "failures": 143,
+    "fail_rate": 0.00143,
+    "fail_rate_95": [
+      0.001214160781511611,
+      0.0016841438772166194
+    ],
+    "mean_iters_converged": 1.2674831647304856,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.01,
+    "decoder": "min-sum a=0.75 + OSD-0 (ldpc)",
+    "shots": 100000,
+    "unmatched": 0,
+    "logical": 169,
+    "failures": 169,
+    "fail_rate": 0.00169,
+    "fail_rate_95": [
+      0.0014538439680500804,
+      0.001964440715125531
+    ]
+  },
+  {
+    "p": 0.02,
+    "decoder": "min-sum a=0.625",
+    "shots": 100000,
+    "unmatched": 1127,
+    "logical": 374,
+    "failures": 1501,
+    "fail_rate": 0.01501,
+    "fail_rate_95": [
+      0.014274777680694926,
+      0.015782483639554198
+    ],
+    "mean_iters_converged": 1.2828072375673845,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.02,
+    "decoder": "min-sum a=0.75",
+    "shots": 100000,
+    "unmatched": 826,
+    "logical": 590,
+    "failures": 1416,
+    "fail_rate": 0.01416,
+    "fail_rate_95": [
+      0.01344613641492643,
+      0.014911190210013947
+    ],
+    "mean_iters_converged": 1.346532357271059,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.02,
+    "decoder": "min-sum a=0.9",
+    "shots": 100000,
+    "unmatched": 635,
+    "logical": 667,
+    "failures": 1302,
+    "fail_rate": 0.01302,
+    "fail_rate_95": [
+      0.012335859314803339,
+      0.013741554895252367
+    ],
+    "mean_iters_converged": 1.5267448296683943,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.02,
+    "decoder": "min-sum a=1.0",
+    "shots": 100000,
+    "unmatched": 4289,
+    "logical": 333,
+    "failures": 4622,
+    "fail_rate": 0.04622,
+    "fail_rate_95": [
+      0.044935986901607806,
+      0.04753887658403653
+    ],
+    "mean_iters_converged": 1.85981757582723,
+    "unmatched_with_zero_posterior": 3655
+  },
+  {
+    "p": 0.02,
+    "decoder": "min-sum a=0.9, prior jittered",
+    "shots": 100000,
+    "unmatched": 470,
+    "logical": 747,
+    "failures": 1217,
+    "fail_rate": 0.01217,
+    "fail_rate_95": [
+      0.011508911539431448,
+      0.012868567975315513
+    ],
+    "mean_iters_converged": 1.5875715864563449,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.02,
+    "decoder": "min-sum a=1.0, prior jittered",
+    "shots": 100000,
+    "unmatched": 554,
+    "logical": 687,
+    "failures": 1241,
+    "fail_rate": 0.01241,
+    "fail_rate_95": [
+      0.011742320360722385,
+      0.013115140715052926
+    ],
+    "mean_iters_converged": 2.4690585845584536,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.02,
+    "decoder": "min-sum a=0.75 + OSD-0 (ldpc)",
+    "shots": 100000,
+    "unmatched": 0,
+    "logical": 1215,
+    "failures": 1215,
+    "fail_rate": 0.01215,
+    "fail_rate_95": [
+      0.011489463830167029,
+      0.0128480172211609
+    ]
+  },
+  {
+    "p": 0.04,
+    "decoder": "min-sum a=0.625",
+    "shots": 100000,
+    "unmatched": 7797,
+    "logical": 3290,
+    "failures": 11087,
+    "fail_rate": 0.11087,
+    "fail_rate_95": [
+      0.1089389152543829,
+      0.11283098123327365
+    ],
+    "mean_iters_converged": 2.3757036105115885,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.04,
+    "decoder": "min-sum a=0.75",
+    "shots": 100000,
+    "unmatched": 5260,
+    "logical": 5054,
+    "failures": 10314,
+    "fail_rate": 0.10314,
+    "fail_rate_95": [
+      0.10127013030222141,
+      0.10504036007398031
+    ],
+    "mean_iters_converged": 2.8004538737597637,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.04,
+    "decoder": "min-sum a=0.9",
+    "shots": 100000,
+    "unmatched": 4126,
+    "logical": 5532,
+    "failures": 9658,
+    "fail_rate": 0.09658,
+    "fail_rate_95": [
+      0.09476465150932141,
+      0.0984263428654387
+    ],
+    "mean_iters_converged": 3.8177712414210316,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.04,
+    "decoder": "min-sum a=1.0",
+    "shots": 100000,
+    "unmatched": 30430,
+    "logical": 550,
+    "failures": 30980,
+    "fail_rate": 0.3098,
+    "fail_rate_95": [
+      0.30694129892603494,
+      0.31267331395899645
+    ],
+    "mean_iters_converged": 1.497685784102343,
+    "unmatched_with_zero_posterior": 30376
+  },
+  {
+    "p": 0.04,
+    "decoder": "min-sum a=0.9, prior jittered",
+    "shots": 100000,
+    "unmatched": 3726,
+    "logical": 5732,
+    "failures": 9458,
+    "fail_rate": 0.09458,
+    "fail_rate_95": [
+      0.09278177803109293,
+      0.09640937000176426
+    ],
+    "mean_iters_converged": 3.9627313708789496,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.04,
+    "decoder": "min-sum a=1.0, prior jittered",
+    "shots": 100000,
+    "unmatched": 4969,
+    "logical": 4889,
+    "failures": 9858,
+    "fail_rate": 0.09858,
+    "fail_rate_95": [
+      0.09674776546281572,
+      0.10044307525384732
+    ],
+    "mean_iters_converged": 7.494322905157264,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.04,
+    "decoder": "min-sum a=0.75 + OSD-0 (ldpc)",
+    "shots": 100000,
+    "unmatched": 0,
+    "logical": 9325,
+    "failures": 9325,
+    "fail_rate": 0.09325,
+    "fail_rate_95": [
+      0.09146330365049356,
+      0.09506794656499819
+    ]
+  },
+  {
+    "p": 0.06,
+    "decoder": "min-sum a=0.625",
+    "shots": 100000,
+    "unmatched": 21198,
+    "logical": 8990,
+    "failures": 30188,
+    "fail_rate": 0.30188,
+    "fail_rate_95": [
+      0.2990422882137193,
+      0.30473293315737643
+    ],
+    "mean_iters_converged": 4.075264587193218,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.06,
+    "decoder": "min-sum a=0.75",
+    "shots": 100000,
+    "unmatched": 14531,
+    "logical": 13838,
+    "failures": 28369,
+    "fail_rate": 0.28369,
+    "fail_rate_95": [
+      0.28090433666405135,
+      0.2864922822274373
+    ],
+    "mean_iters_converged": 5.084451672536241,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.06,
+    "decoder": "min-sum a=0.9",
+    "shots": 100000,
+    "unmatched": 12271,
+    "logical": 15132,
+    "failures": 27403,
+    "fail_rate": 0.27403,
+    "fail_rate_95": [
+      0.27127423356123326,
+      0.27680312749886427
+    ],
+    "mean_iters_converged": 7.308130720742286,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.06,
+    "decoder": "min-sum a=1.0",
+    "shots": 100000,
+    "unmatched": 59405,
+    "logical": 893,
+    "failures": 60298,
+    "fail_rate": 0.60298,
+    "fail_rate_95": [
+      0.5999435096073933,
+      0.6060085785371885
+    ],
+    "mean_iters_converged": 1.7516935583199902,
+    "unmatched_with_zero_posterior": 59370
+  },
+  {
+    "p": 0.06,
+    "decoder": "min-sum a=0.9, prior jittered",
+    "shots": 100000,
+    "unmatched": 11850,
+    "logical": 15336,
+    "failures": 27186,
+    "fail_rate": 0.27186,
+    "fail_rate_95": [
+      0.26911117180461497,
+      0.2746263559745178
+    ],
+    "mean_iters_converged": 7.449302325581395,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.06,
+    "decoder": "min-sum a=1.0, prior jittered",
+    "shots": 100000,
+    "unmatched": 16067,
+    "logical": 12146,
+    "failures": 28213,
+    "fail_rate": 0.28213,
+    "fail_rate_95": [
+      0.2793490565631177,
+      0.2849276821816866
+    ],
+    "mean_iters_converged": 13.323448464846962,
+    "unmatched_with_zero_posterior": 0
+  },
+  {
+    "p": 0.06,
+    "decoder": "min-sum a=0.75 + OSD-0 (ldpc)",
+    "shots": 100000,
+    "unmatched": 0,
+    "logical": 26222,
+    "failures": 26222,
+    "fail_rate": 0.26222,
+    "fail_rate_95": [
+      0.25950300451355857,
+      0.26495526389760216
+    ]
+  }
+]

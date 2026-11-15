@@ -1,0 +1,74 @@
+[
+  {
+    "backend": "cpu",
+    "device": "cpu, one thread",
+    "batch": 1,
+    "decode_seconds": 2.708e-06,
+    "shots_per_second": 369276.2186115214,
+    "total_seconds": null,
+    "matches_reference": true
+  },
+  {
+    "backend": "ldpc",
+    "device": "cpu, one thread, one Python call per shot",
+    "batch": 1,
+    "decode_seconds": 9.745800343807787e-05,
+    "shots_per_second": 10260.82994441162,
+    "total_seconds": null,
+    "matches_reference": null
+  },
+  {
+    "backend": "cpu",
+    "device": "cpu, one thread",
+    "batch": 100,
+    "decode_seconds": 0.000184416,
+    "shots_per_second": 542252.2991497484,
+    "total_seconds": null,
+    "matches_reference": true
+  },
+  {
+    "backend": "ldpc",
+    "device": "cpu, one thread, one Python call per shot",
+    "batch": 100,
+    "decode_seconds": 0.0005686670046998188,
+    "shots_per_second": 175849.83685274093,
+    "total_seconds": null,
+    "matches_reference": null
+  },
+  {
+    "backend": "cpu",
+    "device": "cpu, one thread",
+    "batch": 10000,
+    "decode_seconds": 0.023741625,
+    "shots_per_second": 421201.1604091969,
+    "total_seconds": null,
+    "matches_reference": true
+  },
+  {
+    "backend": "ldpc",
+    "device": "cpu, one thread, one Python call per shot",
+    "batch": 10000,
+    "decode_seconds": 0.052846916994894855,
+    "shots_per_second": 189225.79723933613,
+    "total_seconds": null,
+    "matches_reference": null
+  },
+  {
+    "backend": "cpu",
+    "device": "cpu, one thread",
+    "batch": 100000,
+    "decode_seconds": 0.242908625,
+    "shots_per_second": 411677.4363199331,
+    "total_seconds": null,
+    "matches_reference": true
+  },
+  {
+    "backend": "ldpc",
+    "device": "cpu, one thread, one Python call per shot",
+    "batch": 100000,
+    "decode_seconds": 0.5346907089988235,
+    "shots_per_second": 187024.0090523436,
+    "total_seconds": null,
+    "matches_reference": null
+  }
+]
